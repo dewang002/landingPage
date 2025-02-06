@@ -20,10 +20,10 @@ const Featuresection = () => {
           </span>
         </h2>
       </div>
-      <div className="grid grid-cols-12 mt-10 mx-24">
+      <div className="grid grid-cols-12 mt-16 mx-10 lg:mx-48">
         {
             features.map((elem:Featuretype,index:number)=>(
-                <div key={index} className="col-span-4 flex px-10">
+                <div key={index} className="col-span-12 lg:col-span-4 flex">
                   <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
                     {elem.icon}
                   </div>

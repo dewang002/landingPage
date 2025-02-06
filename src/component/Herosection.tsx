@@ -27,12 +27,12 @@ const Herosection = () => {
           Documentation
         </a>
       </div>
-      <div className="flex mt-10 w-1/2 justify-center">
+      <div className="flex mt-10 mx-10 md:mx-0 md:w-1/2 flex-col lg:flex-row justify-center">
         <video
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border-orange-700 shadow-sm shadow-orange-400 border mx-2 my-4"
+          className="rounded-lg md:w-1/2 border-orange-700 shadow-sm shadow-orange-400 border mx-2 my-4"
         >
           <source src={video1} />
           Your browser does not support the video tag.
@@ -41,7 +41,7 @@ const Herosection = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border-orange-700 shadow-sm shadow-orange-400 border mx-2 my-4"
+          className="rounded-lg md:w-1/2 border-orange-700 shadow-sm shadow-orange-400 border mx-2 my-4"
         >
           <source src={video2} />
           Your browser does not support the video tag.
